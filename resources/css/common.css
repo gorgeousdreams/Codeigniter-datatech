@@ -1,0 +1,65 @@
+#ex1,#ex2,#ex3,#message
+{
+	display:none;
+}
+#message
+{
+	width:25% !important;
+}
+.user-dropdown
+{
+	width:100%;
+}
+.message-popup-body
+{
+	text-align: center;
+}
+	
+.truncate 
+{
+  width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.conversation
+{
+	width:25%;
+}
+.single-msg
+{
+	font-size: 20px;
+	background-color: #D6D6D6;
+}
+.bigdrop {
+    width: 300px !important;
+}
+
+.ago
+{
+	font-size:12px;
+	margin-top:5px;
+	font-style:italic;
+}
+
+.commented-by
+{
+    text-transform:capitalize;
+    font-weight: bold;
+}
+.comment-by-user
+{
+
+}
+.vote
+{
+	cursor: pointer;
+	color:blue;
+}
+.accordion-header-comments
+{
+	font-size:14px;
+	cursor: pointer;
+	text-decoration: underline;
+	color:blue;
+}

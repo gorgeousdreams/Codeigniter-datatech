@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>
+
+
+##RewriteEngine On
+##RewriteBase /
+#RewriteRule ^index\.html?$ index.php [NC,R,L]
+##RewriteCond $1 !^(index\.php|images|assets|robots\.txt)
+#RewriteRule ^$  index.php
+##RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+#<Directory />
+#     DirectoryIndex index.php index.html
+#</Directory>
